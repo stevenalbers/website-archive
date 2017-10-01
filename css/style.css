@@ -97,7 +97,7 @@ ul.side_nav li a:hover{
 .top-menu ul li{
 	display: inline-block;
 	margin: 0 15px;
-	color: #fff;
+	color: #B6BFD1;
 	font-weight: 900;
 	vertical-align: top;
 }
@@ -105,7 +105,7 @@ nav a {
 	position: relative;
 	display: inline-block;
 	outline: none;
-	color: #fff;
+	color: #B6BFD1;
 	text-decoration: none;
 	text-transform: uppercase; letter-spacing: 1px;
 	font-weight: 400;
@@ -122,7 +122,7 @@ nav a:focus {
 	text-shadow: 0 0 1px rgba(111,134,134,0.3);
 }
 .cl-effect-16 a::before {
-	  color: #fff;
+	  color: #B6BFD1;
 	content: attr(data-hover);
 	position: absolute;
 	opacity: 0;
@@ -145,7 +145,7 @@ nav a:focus {
 }
 .top-menu ul li a{
    text-decoration: none;
-  color: #34353a;
+  color: #5D627A;
   font-size: 0.9em;
   font-weight: 600;
   text-transform: uppercase;
@@ -153,7 +153,7 @@ nav a:focus {
   margin: 0 auto;
 }
 .top-menu ul li a:hover,.top-menu ul li a.active{
-	  color: #fff;
+	  color: #B6BFD1;
 }
 
 /*--login-pop--*/
