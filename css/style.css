@@ -50,7 +50,7 @@ label{
 .logo  a h1{
   font-size:9em;
   font-weight: 400;
-  color:#34353a;
+  color:#B6BFD1;
  font-family: 'Candal', sans-serif;
 }
 .logo  a h1:hover{
@@ -107,8 +107,7 @@ nav a {
 	outline: none;
 	color: #fff;
 	text-decoration: none;
-	text-transform: uppercase;
-	letter-spacing: 1px;
+	text-transform: uppercase; letter-spacing: 1px;
 	font-weight: 400;
 	text-shadow: 0 0 1px rgba(255,255,255,0.3);
 	font-size: 1em;
@@ -360,7 +359,7 @@ fieldset#body {
 }
 /*--start-banner--*/
 .banner {
-  background: #f6608a;
+  background: #2B3B31;
   min-height: 730px;
 }
 .banner-info {
@@ -369,7 +368,7 @@ fieldset#body {
 .banner-info p {
    font-size: 0.9em;
   font-weight: 400;
-  color: #fff;
+  color: #B6BFD1;
   line-height: 2em;
   width: 80%;
   margin: 1% auto 0;
@@ -410,19 +409,18 @@ h3.tittle {
   width:100%;
 }
 .text {
-  background-color: #53bed6;
   min-height: 550px;
   padding: 4em;
 }
 .ab-grid.text h4 {
   font-size: 1.5em;
   line-height: 1.6em;
-  color: #fff;
+  color: #181F19;
 }
 .ab-grid.text p{
   font-size:0.9em;
   line-height: 1.8em;
-  color: #fff;
+  color: #181F19;
   width: 80%;
   margin: 1em 0;
 }
@@ -878,7 +876,7 @@ h3.tittle.two {
 	  text-align: center;
 	}
 	.banner {
-	  background: #f6608a;
+	  background: #2B3B31;
 	  min-height: 700px;
 	}
 	.contact-top {
@@ -888,6 +886,7 @@ h3.tittle.two {
 @media (max-width:1366px){
 	.logo a h1 {
 		font-size: 8.5em;
+
 	}
 	  .contact-top {
 	  padding: 7em 0 0 5em;
