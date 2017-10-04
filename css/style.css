@@ -41,6 +41,47 @@ label{
 	margin:0;
 }
 /*--start-header--*/
+.header{
+  background: #FFFFFF;
+  border-bottom: 5px solid rgba(192, 192, 192, 0.31);
+  position: fixed;
+  top: 0px;
+  z-index: 5;
+  opacity: 0.97;
+  width:100%;
+}
+.logo{
+  float:left;
+}
+.logo a h2{
+  font-family: 'Candal', sans-serif;
+  color: #2a323a;
+  text-transform: uppercase;
+  font-size: 24px;
+  display: block;
+  padding: 20px;
+}
+.top-nav{
+  float:right;
+}
+.top-nav ul li{
+  display:inline-block;
+}
+.top-nav ul li a{
+  font-family: 'Candal', sans-serif;
+  color: #2a323a;
+  padding: 20px;
+  display: block;
+  text-transform: uppercase;
+  transition: 0.5s ease;
+  -o-transition: 0.5s ease;
+  -webkit-transition: 0.5s ease;
+}
+.top-nav li.active> a, .top-nav li> a:hover {
+  border-top: 5px solid #665cbe;
+  color: #665cbe;
+}
+/*---End-header---*/
 .header-top {
   padding: 2em 0em 0 0;
 }
@@ -59,109 +100,7 @@ label{
 .logo a h1 span {
   color:#b42b36;
 }
-ul.side_nav{
-  position: fixed;
-  right: 10%;
-  top: 39%;
-  z-index: 1;
-}
-ul.side_nav li{
-display:block;
-}
-ul.side_nav li a{
-	width:12px;
-	height:12px;
-	background:#34353a;
-	border:2px solid#34353a;
-	border-radius:50%;
-	-o-border-radius: 50%;
-	-moz-border-radius: 50%;
-	-webkit-border-radius: 50%;
-	display:block;
-	margin-bottom:1em;
-}
-ul.side_nav li a:hover{
-	background:#53bed6;
-	border:2px solid#53bed6;
-}
-/*--slider--*/
-.top-menu {
-  float: left;
-  margin: 0.8% auto 0;
- width: 89%;
-  text-align: center;
-}
-.top-menu ul{
-	padding:0;
-}
-.top-menu ul li{
-	display: inline-block;
-	margin: 0 15px;
-	color: #B6BFD1;
-	font-weight: 900;
-	vertical-align: top;
-}
-nav a {
-	position: relative;
-	display: inline-block;
-	outline: none;
-	color: #B6BFD1;
-	text-decoration: none;
-	text-transform: uppercase; letter-spacing: 1px;
-	font-weight: 400;
-	text-shadow: 0 0 1px rgba(255,255,255,0.3);
-	font-size: 1em;
-}
-nav a:hover,
-nav a:focus {
-	outline: none;
-}
-/* Effect 16: fall down */
-.cl-effect-16 a {
-	color: #6f8686;
-	text-shadow: 0 0 1px rgba(111,134,134,0.3);
-}
-.cl-effect-16 a::before {
-	  color: #B6BFD1;
-	content: attr(data-hover);
-	position: absolute;
-	opacity: 0;
-	text-shadow: 0 0 1px rgba(255,255,255,0.3);
-	-webkit-transform: scale(1.1) translateX(10px) translateY(-10px) rotate(4deg);
-	-moz-transform: scale(1.1) translateX(10px) translateY(-10px) rotate(4deg);
-	transform: scale(1.1) translateX(10px) translateY(-10px) rotate(4deg);
-	-webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
-	-moz-transition: -moz-transform 0.3s, opacity 0.3s;
-	transition: transform 0.3s, opacity 0.3s;
-	pointer-events: none;
-}
 
-.cl-effect-16 a:hover::before,
-.cl-effect-16 a:focus::before {
-	-webkit-transform: scale(1) translateX(0px) translateY(0px) rotate(0deg);
-	-moz-transform: scale(1) translateX(0px) translateY(0px) rotate(0deg);
-	transform: scale(1) translateX(0px) translateY(0px) rotate(0deg);
-	opacity: 1;
-}
-.top-menu ul li a{
-   text-decoration: none;
-  color: #5D627A;
-  font-size: 0.9em;
-  font-weight: 600;
-  text-transform: uppercase;
-  padding: 0;
-  margin: 0 auto;
-}
-.top-menu ul li a:hover,.top-menu ul li a.active{
-	  color: #B6BFD1;
-}
-
-/*--login-pop--*/
-#loginpop {
-	position: relative;
-    float: right;
-	  margin-top: 0.3em;
-}
 i.arrow {
     font-size: 0.9em;
   color: #34353a;
@@ -172,69 +111,7 @@ i.arrow {
 	-o-transition:0.5s all;
 	-ms-transition:0.5s all;
   }
-#loginpop a span:hover i.arrow{
-  color:#fff;
-  }
-#loginpop a{
-	text-decoration:none;
-}
-#loginpop a span{
-   display: block;
-  color: #34353a;
-  background: none;
-  padding: 5px 18px;
-  font-size: 0.9em;
-  border: 1px solid #34353a;
-  transition: 0.5s all;
-  -webkit-transition: 0.5s all;
-  -moz-transition: 0.5s all;
-  -o-transition: 0.5s all;
-  -ms-transition: 0.5s all;
-  font-weight: 600;
-  text-transform: uppercase;
-  }
- #loginpop a span:hover{
-	background:#53bed6;
-	 border: 1px solid #53bed6;
-	 color:#fff;
- }
-/* Login Button */
-#loginButton { 
-    display:inline-block;  
-    position:relative;
-    z-index:30;
-    cursor:pointer;
-}
-/* Login Box */
-#loginBox {
-    position:absolute;
-	top:45px;
-	right:27px;
-    display:none;
-    z-index:29;
-}
-#loginForm:after {
-	  content: '';
-	  position: absolute;
-	  right: 25px;
-	 top: -12px;
-	  border-left: 10px solid rgba(0, 0, 0, 0);
-	  border-right: 10px solid rgba(0, 0, 0, 0);
-	  border-bottom: 13px solid #FFFFFF;
-}
-/* Login Form */
-#loginForm {
-	  width: 300px;
-  background: #fff;
-  border: 1px solid #d6d6d6;
-  height: 251px;
-}
-#loginForm fieldset {
-    margin:0 0 15px 0;
-    display:block;
-    border:0;
-    padding:0;
-}
+
 fieldset#body {
     border-radius:3px;
     -webkit-border-radius:3px;
@@ -243,13 +120,7 @@ fieldset#body {
     padding:15px 15px;
     margin:0;
 }
-#loginForm #checkbox {
-    width:auto;
-    margin:3px 6px 0 0;
-    float:left;
-    padding:0;
-    border:0;
-}
+
 #body label {
    color:#34353a;
     margin:10px 0 0 0;
@@ -258,42 +129,7 @@ fieldset#body {
     font-size:0.8725em;
     font-weight: 400;
 }
-#loginForm #body fieldset label{
-    display:block;
-    float:none;
-    margin:0 0 6px 0;
-}
-#loginForm #login {
-  width: auto;
-  float: left;
-  background:#53bed6;
-  color: #fff;
-  font-size: 0.8725em;
-  padding: 7px 20px;
-  border: none;
-  margin: 0 12px 0 0;
-  cursor: pointer;
-  transition: all .5s;
-  -webkit-transition: all .5s;
-  -moz-transition: all .5s;
-  -o-transition: all .5s;
-  outline:none;
-  text-transform: uppercase;
-  
-}
-#loginForm #login:hover{
-     background:#F6608A;
-}
-#loginForm input {
-   width: 100%;
-  border: 1px solid #DADADA;
-  color: #222;
-  background: #FFF;
-  padding: 6px;
-  font-size: 0.8125em;
-  -webkit-apperance: none;
-  outline: none
-}
+
 #body label i {
   color: #000;
   font-size: 1em;
