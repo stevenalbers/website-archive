@@ -50,9 +50,7 @@ label{
   opacity: 0.97;
   width:100%;
 }
-.logo{
-  float:left;
-}
+
 .logo a h2{
   font-family: 'Candal', sans-serif;
   color: #2a323a;
@@ -60,6 +58,7 @@ label{
   font-size: 24px;
   display: block;
   padding: 20px;
+  float:left;
 }
 .top-nav{
   float:right;
@@ -196,7 +195,7 @@ fieldset#body {
 /*--start-banner--*/
 .banner {
   background: #2B3B31;
-  min-height: 730px;
+  min-height: 500px;
 }
 .banner-info {
   margin-top: 10em;
@@ -210,22 +209,7 @@ fieldset#body {
   margin: 1% auto 0;
   text-align: center;
 }
-.scroll-down h4{
-  color: #B6BFD1;
-  font-weight: 400;
-  font-size: 1em;
-  margin-bottom: 10px;
-}
-.scroll-down a span{
-background:url(../images/down.png) no-repeat 0px 0px;
-height:32px;
-width:32px;
-display:inline-block;
-}
-.scroll-down {
-  margin: 12% auto 0;
-  text-align: center;
-}
+
 /*--about--*/
 #about {
   background: #E9EBF1;
