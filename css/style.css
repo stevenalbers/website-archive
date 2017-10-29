@@ -5,7 +5,7 @@ License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
 html, body{
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Questrial', sans-serif;
 	font-size: 100%;
 	background: #FFf;
 }
@@ -28,7 +28,7 @@ input[type="button"],input[type="submit"],li.parallelogram{
 }
 h1,h2,h3,h4,h5,h6{
 	margin:0;
- font-family: 'Candal', sans-serif;
+ font-family: 'Questrial', sans-serif;
 }	
 p{
 	margin:0;
@@ -52,7 +52,7 @@ label{
 }
 
 .logo a h2{
-  font-family: 'Candal', sans-serif;
+  font-family: 'Questrial', sans-serif;
   color: #2a323a;
   text-transform: uppercase;
   font-size: 24px;
@@ -67,7 +67,7 @@ label{
   display:inline-block;
 }
 .top-nav ul li a{
-  font-family: 'Candal', sans-serif;
+  font-family: 'Questrial', sans-serif;
   color: #2a323a;
   padding: 20px;
   display: block;
@@ -91,7 +91,7 @@ label{
   font-size:9em;
   font-weight: 400;
   color:#B6BFD1;
- font-family: 'Candal', sans-serif;
+ font-family: 'Questrial', sans-serif;
 }
 .logo  a h1:hover{
  text-decoration:none;
@@ -219,7 +219,7 @@ h3.tittle {
    font-size: 2.5em;
   font-weight: 400;
   color: #34353a;
-  font-family: 'Candal', sans-serif;text-align:center;
+  font-family: 'Questrial', sans-serif;text-align:center;
   margin-bottom:1em;
 }
 .ab-grid {
@@ -368,92 +368,6 @@ span.circles-text {
   line-height: 142px !important;
 }
 /*--//my skill--*/
-/*-- projects --*/
-.projects{
-	background:#53bed6;
-	min-height:600px;
-	position:relative;
-	  padding-top: 12em;
-}
-.project-grids h4 {
-  color: #fff;
-  font-size: 1.2em;
-  text-transform: uppercase;
-}
-.cycle{
-	text-align:center;
-}
-.cycle span{
-	width:284px;
-	height:284px;
-	display:inline-block;
-	background:url(../images/cycle.png) no-repeat 0px 0px;
-}
-.people-grid {
-   position: absolute;
-  left: 56.5%;
-  top: 51%;
-  text-align: center;
-}
-.total-project {
-    position: absolute;
-  top: 17%;
-  left: 46.5%;
-  text-align: center;
-}
-.project-grid p{
-	color: #FFF;
-	font-size: 1.4em;
-	text-transform: uppercase;
-	font-weight: 300;
-	margin: 0;
-}
-.project-grid span{
-	width:70px;
-	height:70px;
-	display:inline-block;
-	background:#FFF;
-	border-radius:30em;
-	-webkit-border-radius:30em;
-	-moz-border-radius:30em;
-	-o-border-radius:30em;
-	-ms-border-radius:30em;
-	margin-top:1em;
-	  transition: all .5s;
-  -webkit-transition: all .5s;
-  -moz-transition: all .5s;
-  -o-transition: all .5s;
-}
-.project-grid:hover span{
-	background:#34353a;
-}
-.project-grid span i{
-	  font-size: 1.6em;
-  padding-top: 0.8em;
-  padding-right: 0.1em;
-}
-.project-grid:hover  span i{
-color:#fff;
-}
-.clientsgrid{
-	   position: absolute;
-  left: 39.5%;
-  top: 51%;
-  text-align: center;
-}
-.people-grid div{
-  position: absolute;
-  left: 90px;
-  top: 18px;
-}
-.clientsgrid div{
-  position: absolute;
-  left: -102px;
-  top: 21px;
-}
-.clientsgrid span i.p-icon{
-	background-position: -43px 0px;
-}
 /*--portfolio--*/
 .gallery {
 	padding:5em 0;
