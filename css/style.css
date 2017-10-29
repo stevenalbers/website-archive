@@ -54,7 +54,6 @@ label{
 .logo a h2{
   font-family: 'Questrial', sans-serif;
   color: #2a323a;
-  text-transform: uppercase;
   font-size: 24px;
   display: block;
   padding: 20px;
@@ -70,15 +69,15 @@ label{
   font-family: 'Questrial', sans-serif;
   color: #2a323a;
   padding: 20px;
+  font-size: 16px;
   display: block;
-  text-transform: uppercase;
   transition: 0.5s ease;
   -o-transition: 0.5s ease;
   -webkit-transition: 0.5s ease;
 }
 .top-nav li.active> a, .top-nav li> a:hover {
-  border-top: 5px solid #665cbe;
-  color: #665cbe;
+  border-top: 5px solid #2B3B31;
+  color: #2B3B31;
 }
 /*---End-header---*/
 .header-top {
@@ -562,7 +561,7 @@ h3.tittle.two {
 /*--welcome--*/
 .copy {
    text-align: center;
-    background:#53bed6;
+    background:#2B3B31;
     padding: 1em 1em;
   }
 .copy p {
