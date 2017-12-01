@@ -1740,4 +1740,23 @@ h3.tittle.two {
 	#body label i {
   font-size: 0.9em;
   }
+  .stars p {
+  	font-size: 3em;
+  }
+
+  .stars a h1 {
+  	font-size: 2em;
+  }
 }
+  .stars-header p {
+  	font-size: 3em;
+  	  color: #ffffff;
+
+  }
+
+  .stars p {
+  	font-size: 2em;
+  color: #F1C40F;
+
+  }
+
