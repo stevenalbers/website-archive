@@ -75,7 +75,7 @@ label{
   -o-transition: 0.5s ease;
   -webkit-transition: 0.5s ease;
 }
-.top-nav li.active> a, .top-nav li> a:hover {
+.top-nav li.active a, .top-nav li a:hover {
   border-top: 5px solid #2B3B31;
   color: #2B3B31;
 }
@@ -207,6 +207,14 @@ fieldset#body {
   width: 80%;
   margin: 1% auto 0;
   text-align: center;
+}
+.banner-info h1 {
+  color: #B6BFD1;
+  line-height: 1em;
+  width: 80%;
+  margin: 1% auto 0;
+  text-align: center;
+
 }
 
 /*--about--*/

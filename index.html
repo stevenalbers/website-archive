@@ -25,13 +25,40 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <script type="text/javascript" src="js/easing.js"></script>
 <!--/script-->
 <script type="text/javascript">
-			jQuery(document).ready(function($) {
-				$(".scroll").click(function(event){		
-					event.preventDefault();
-					$('html,body').animate({scrollTop:$(this.hash).offset().top},900);
-				});
-			});
+ jQuery(document).ready(function($) {
+    $(".scroll").click(function(event){		
+       event.preventDefault();
+       $('html,body').animate({scrollTop:$(this.hash).offset().top},900);
+   });
+});
+ jQuery(document).ready(function($) {
+    $('.top-nav li a').click(function() {
+        $('.top-nav li').removeClass();
+        $(this).parent().addClass('active');
+    });
+});
+
+ $(document).ready(function () {
+    $(document).on("scroll", onScroll)
+});
+
+ function onScroll(event){
+    var scrollPos = $(document).scrollTop();
+    $('.top-nav li a').each(function () {
+        var currLink = $(this);
+        var refElement = $(currLink.attr("href"));
+        if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
+            $('.top-nav li a').removeClass('active');
+            currLink.parent().addClass('active');
+        }
+        else{
+            currLink.parent().removeClass('active');
+        }
+    });
+};
 </script>
+
+
 </head>
 <body>
 			<!---start-wrap-->
@@ -48,6 +75,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<ul>
 					<li class="active"><a href="#about" class="scroll">Me</a></li>
 					<li><a href="#experience" class="scroll">Experience</a></li>
+                    <li><a href="#skill" class="scroll">Skills</a></li>
 					<li><a href="#port" class="scroll">Projects</a></li>
 					<li><a href="#contact" class="scroll">Contact</a></li>
 				</ul>
@@ -68,7 +96,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						 <div class="logo">
 							  <a href="index.html"><h1>Steven Albers</h1></a>
 						  </div>
-						<p> Donec rhoncus bibendum tempor.Lorem Ipsum Maecenas tristique orci ac sem.<lable> Duis ultricies pharetra magna. Donec accumsan malesuada orci. Donec sit amet eros. Lorem ipsumipsum dolor sit amet,</lable> consectetuer dolor sit.</p>
+						<h1> LinkedIn | Github | Resume </h1>
 				  </div>
 			</div>
 		</div>
