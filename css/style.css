@@ -222,7 +222,7 @@ fieldset#body {
   background: #E9EBF1;
   padding: 5em 0;
 }
-h3.tittle {
+h3.title {
    font-size: 2.5em;
   font-weight: 400;
   color: #34353a;
@@ -264,7 +264,7 @@ h3.tittle {
 	position:relative;
 	text-align:center;
 }
-span.devide-line {
+span.divide-line {
 	width: 1px;
 	height: 360px;
 	position: absolute;
@@ -379,7 +379,7 @@ span.circles-text {
 .gallery {
 	padding:5em 0;
 }
-h3.tittle.port {
+h3.title.port {
   color: #fff;
 }
 .b-link-stripe{
@@ -514,7 +514,7 @@ label {
 .contact {
   background-color: #F7F7F7;
 }
-h3.tittle.two {
+h3.title.two {
   margin: 0.5em 0;
   text-align: left;
 }
@@ -686,10 +686,10 @@ h3.tittle.two {
 	  min-height: 453px;
 	  padding: 3em;
 	}
-	h3.tittle {
+	h3.title {
      font-size: 2.3em;
     }
-	span.devide-line {
+	span.divide-line {
 	  width: 1px;
 	  height: 360px;
 	  top: 5.4em;
@@ -829,7 +829,7 @@ h3.tittle.two {
 	  right: -4em;
 	  padding: 14px;
 	  }
-	  span.devide-line {
+	  span.divide-line {
 	   width: 1px;
 	  height: 370px;
 	  top: 5.4em;
@@ -1001,7 +1001,7 @@ h3.tittle.two {
 	  width: 41%;
 	  left: 7px;
 	}
-	h3.tittle {
+	h3.title {
 	  font-size: 2.2em;
 	}
 	.people-grid div {
@@ -1086,7 +1086,7 @@ h3.tittle.two {
 	  width: 70%;
 	  left: 7px;
 	}
-	span.devide-line {
+	span.divide-line {
 	  width: 1px;
 	  height: 370px;
 	  top: 5.4em;
@@ -1126,7 +1126,7 @@ h3.tittle.two {
 	  padding-top: 3em;
 	  min-height: 980px;
 	}
-	h3.tittle {
+	h3.title {
 	  font-size: 2.2em;
 	  margin-bottom: 0.5em;
 	}
@@ -1216,7 +1216,7 @@ h3.tittle.two {
 	  width: 70%;
 	  left: 7px;
 	}
-	span.devide-line {
+	span.divide-line {
 	  width: 1px;
 	  height: 370px;
 	  top: 5.4em;
@@ -1256,7 +1256,7 @@ h3.tittle.two {
 	  padding-top: 3em;
 	  min-height: 980px;
 	}
-	h3.tittle {
+	h3.title {
 	  font-size: 2.2em;
 	  margin-bottom: 0.5em;
 	}
@@ -1591,7 +1591,7 @@ h3.tittle.two {
 	  width: 90%;
 	  margin-left: -0.8em;
 	}
-	h3.tittle.four {
+	h3.title.four {
 	  font-size: 1.5em;
 	  line-height: 1.5em;
 	}
@@ -1693,11 +1693,11 @@ h3.tittle.two {
 	  margin: 6% auto 0;
 	  text-align: center;
 	}
-	h3.tittle {
+	h3.title {
 	  font-size: 1.7em;
 	  margin-bottom: 0.5em;
 	}
-	h3.tittle {
+	h3.title {
 	  font-size: 1.7em;
 	  margin-bottom: 0.5em;
 	}
