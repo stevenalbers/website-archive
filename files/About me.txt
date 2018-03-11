@@ -1,0 +1,19 @@
+Hello!
+
+I’m Steven. Or Steve. Or anything really; I’m not picky.
+
+Currently I’m a Firmware Engineer creating games for slot machines in my hometown of Reno, NV. I’ve spent most of my professional career deeply embedded in C++, but have recently taken up Swift and worked on making interactive experiences with a few friends under the Tropopause LLC brand.
+
+My passion for programming manifested itself at a young age as I spent most of my free time gaming, and always dreamed of making the next big AAA title. Ironically enough game design as a field didn’t excite me much once I started my CS undergraduate, but yet here I am years later making a very different variety of game. It's not what I've expected, but I've enjoyed the journey.
+
+I believe the common person takes for granted how powerful technology can truly be. I would love to bridge that gap by developing tools and applications that add true value to peoples' lives in ways they would never expect. There's no greater good than to create something wonderful, and share it with the world. It's through that give and take of information that really pushes progress forward.
+
+--- Scratch ---
+
+I've always had an interest in looking into the world on a deeper level. There's something captivating about searching for answers to questions that haven't been asked yet. Technology moves quickly, and I want to 
+
+Data has always excited me. 
+
+make compelling products that improve peoples' lives incrementally.
+
+I've spent a lot of time tinkering around with games & entertainment-focused tools because I see them as a gateway to understanding the world on a deeper level. Ultimately I want to create value in peoples' lives incrementally. I've never believed in get rich/healthy/etc fast schemes, so whether it's through lifestyle nudges or illuminating data-based discoveries, I want to be a driving force in helping people become their best selves.
