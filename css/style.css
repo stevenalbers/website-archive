@@ -398,6 +398,7 @@ h3.title.port {
 	color:#ffffff;
 	overflow:hidden;
 }
+
 .b-animate-go{
 	text-decoration:none;
 }
@@ -415,6 +416,19 @@ h3.title.port {
 .b-animate-go:hover .b-animate{
 	visibility:visible;
 }
+
+.bottom-gallery h2{
+	position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+    background: white;
+    color: #000;
+    opacity:0;
+    transition:1s;
+}
 .b-from-left{
    position: relative;
   left: -100%;
@@ -426,6 +440,9 @@ h3.title.port {
 }
 .bottom-gallery:hover .b-from-left{
 	left:0;
+}
+.bottom-gallery:hover h2{
+    opacity:.75;
 }
 .gallery-top{
 	text-align: center;
@@ -444,7 +461,10 @@ h3.title.port {
 .bottom-gallery{
   padding: 0 2px;
   margin-bottom: 0.3em;
+  position: relative; 
+  display: inline-block;
 }
+
 
 
 .gallery {
