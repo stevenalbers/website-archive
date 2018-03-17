@@ -7,62 +7,62 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>Steven Albers</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="Personale Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
-Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
-<script type="applijegleryion/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
-<!-- Custom Theme files -->
-<link href="css/style.css" rel='stylesheet' type='text/css' />	
-<script src="js/jquery-1.11.1.min.js"></script>
-<!--webfonts-->
-<link href='//fonts.googleapis.com/css?family=Candal|Raleway:500,600,400' rel='stylesheet' type='text/css'>
-<link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
-<!--//webfonts-->
-<script type="text/javascript" src="js/move-top.js"></script>
-<script type="text/javascript" src="js/easing.js"></script>
-<!--/script-->
-<script type="text/javascript">
- jQuery(document).ready(function($) {
-    $(".scroll").click(function(event){		
-       event.preventDefault();
-       $('html,body').animate({scrollTop:$(this.hash).offset().top},900);
-   });
-});
- jQuery(document).ready(function($) {
-    $('.top-nav li a').click(function() {
-        $('.top-nav li').removeClass();
-        $(this).parent().addClass('active');
-    });
-});
+	<title>Steven Albers</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="keywords" content="Personale Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+	Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+	<script type="applijegleryion/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+	<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+	<!-- Custom Theme files -->
+	<link href="css/style.css" rel='stylesheet' type='text/css' />	
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<!--webfonts-->
+	<link href='//fonts.googleapis.com/css?family=Candal|Raleway:500,600,400' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
+	<!--//webfonts-->
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+	<!--/script-->
+	<script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){		
+				event.preventDefault();
+				$('html,body').animate({scrollTop:$(this.hash).offset().top},900);
+			});
+		});
+		jQuery(document).ready(function($) {
+			$('.top-nav li a').click(function() {
+				$('.top-nav li').removeClass();
+				$(this).parent().addClass('active');
+			});
+		});
 
- $(document).ready(function () {
-    $(document).on("scroll", onScroll)
-});
+		$(document).ready(function () {
+			$(document).on("scroll", onScroll)
+		});
 
- function onScroll(event){
-    var scrollPos = $(document).scrollTop();
-    $('.top-nav li a').each(function () {
-        var currLink = $(this);
-        var refElement = $(currLink.attr("href"));
-        if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
-            $('.top-nav li a').removeClass('active');
-            currLink.parent().addClass('active');
-        }
-        else{
-            currLink.parent().removeClass('active');
-        }
-    });
-};
-</script>
+		function onScroll(event){
+			var scrollPos = $(document).scrollTop();
+			$('.top-nav li a').each(function () {
+				var currLink = $(this);
+				var refElement = $(currLink.attr("href"));
+				if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
+					$('.top-nav li a').removeClass('active');
+					currLink.parent().addClass('active');
+				}
+				else{
+					currLink.parent().removeClass('active');
+				}
+			});
+		};
+	</script>
 
 
 </head>
 <body>
-			<!---start-wrap-->
-		<!--start-header-->
+	<!---start-wrap-->
+	<!--start-header-->
 	<div class="header">
 		<div class="wrap">
 			<!--start-logo-->
@@ -75,221 +75,222 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<ul>
 					<li class="active"><a href="#about" class="scroll">Me</a></li>
 					<li><a href="#experience" class="scroll">Experience</a></li>
-                    <li><a href="#skill" class="scroll">Skills</a></li>
+					<li><a href="#skill" class="scroll">Skills</a></li>
 					<li><a href="#port" class="scroll">Projects</a></li>
 					<li><a href="#contact" class="scroll">Contact</a></li>
 				</ul>
 			</div>
 			<div class="clear"> </div>
 			<!--End-top-nav-->
-	     </div>
+		</div>
 	</div>
-		<!--End-wrap-->
+	<!--End-wrap-->
 
 
-<!--start-home-->
-		<div class="banner" id="home">
+	<!--start-home-->
+	<div class="banner" id="home">
 		<!--banner-->	
 		<div class="container">	
-		      <!-- script-for-menu -->	  	 
-				  <div class="banner-info">	
-						 <div class="logo">
-							  <a href="index.html"><h1>Steven Albers</h1></a>
-						  </div>
-						<h1> 
-							<a href="http://www.linkedin.com/in/alberss" target="_blank">LinkedIn</a> | 
-							<a href="https://github.com/stevenalbers" target="_blank">Github</a> | 
-							<a href="files/Resume_Albers.pdf" target="_blank">Resume</a> 
-						</h1>
-				  </div>
+			<!-- script-for-menu -->	  	 
+			<div class="banner-info">	
+				<div class="logo">
+					<a href="index.html"><h1>Steven Albers</h1></a>
+				</div>
+				<h1> 
+					<a href="http://www.linkedin.com/in/alberss" target="_blank">LinkedIn</a> | 
+					<a href="https://github.com/stevenalbers" target="_blank">Github</a> | 
+					<a href="files/Resume_Albers.pdf" target="_blank">Resume</a> 
+				</h1>
 			</div>
 		</div>
+	</div>
 	<!--about-->
 	<div class="about" id="about">
-	   <div class="container">
-	   <h3 class="title">Hello!</h3>
-	      <div class="col-md-5 ab-grid pic">
-		  <img src="images/me.jpeg" alt=" " title="ab">
-		  </div>
-		  <div class="col-md-7 ab-grid text">
-		    <h4>I’m Steven. Or Steve. Or anything really; I’m not picky.</h4>
-			<p>Currently I’m a Firmware Engineer creating games for slot machines in my hometown of Reno, NV. I’ve spent most of my professional career deeply embedded in C++, but have recently taken up Swift and worked on making interactive experiences with a few friends under the Tropopause LLC brand.</p>
-			<p>My passion for programming manifested itself at a young age as I spent most of my free time gaming, and always dreamed of making the next big AAA title. Ironically enough game design as a field didn’t excite me much once I started my CS undergraduate, but yet here I am years later making a very different variety of game. It's not what I've expected, but I've enjoyed the journey.</p>
-			<p>I believe the common person takes for granted how powerful technology can truly be. I would love to bridge that gap by developing tools and applications that add true value to peoples' lives in ways they would never expect. There's no greater good than to create something wonderful, and share it with the world. It's through that give and take of information that really pushes progress forward.</p>
-		  </div>
-		  <div class="clearfix"> </div>
-	   </div>
-    </div>	   
+		<div class="container">
+			<h3 class="title">Hello!</h3>
+			<div class="col-md-5 ab-grid pic">
+				<img src="images/me.jpeg" alt=" " title="ab">
+			</div>
+			<div class="col-md-7 ab-grid text">
+				<h4>I’m Steven. Or Steve. Or anything really; I’m not picky.</h4>
+				<p>Currently I’m a Firmware Engineer creating games for slot machines in my hometown of Reno, NV. I’ve spent most of my professional career deeply embedded in C++, but have recently taken up Swift and worked on making interactive experiences with a few friends under the Tropopause LLC brand.</p>
+				<p>My passion for programming manifested itself at a young age as I spent most of my free time gaming, and always dreamed of making the next big AAA title. Ironically enough game design as a field didn’t excite me much once I started my CS undergraduate, but yet here I am years later making a very different variety of game. It's not what I've expected, but I've enjoyed the journey.</p>
+				<p>I believe the common person takes for granted how powerful technology can truly be. I would love to bridge that gap by developing tools and applications that add true value to peoples' lives in ways they would never expect. There's no greater good than to create something wonderful, and share it with the world. It's through that give and take of information that really pushes progress forward.</p>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+	</div>	   
 	<!--//about-->
 	<!--experience-starts-->
 	<div class="experience" id="experience">
 		<div class="container">
-				<h3 class="title four">Where I've been</h3>
-				<div class="experience-main">
-					<span class="divide-line"></span>
-					<div class="experience-left">
-						<span class="glyphicon glyphicon-book" aria-hidden="true"></span>
-						<h4>Bachelor of Science:</h4>
-						<h4>Computer Science & Engineering</h4>
-						<h5>University of Nevada, Reno [ 2010 - 2014 ]</h5>
-						<p>I went to school here.</p>
-					</div>
-					<div class="experience-left-snd">
-						<span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
-					</div>
-					<div class="experience-right-snd">
-						<h4>Software Engineer Intern</h4>
-						<h5>Bally Technologies [ 2013 - 2015 ]</h5>
-						<p>I interned here.</p>
-					</div>
-					<div class="experience-left-trd">
-						<span class="glyphicon glyphicon-briefcase" aria-hidden="true"></span>
-						<h4>Firmware Engineer I</h4>
-						<h5>Scientific Games [ 2015 -  ]</h5>
-						<p>I work here now.</p>
-					</div>
-					<div class="clearfix"> </div>
+			<h3 class="title four">Where I've been</h3>
+			<div class="experience-main">
+				<span class="divide-line"></span>
+				<div class="experience-left">
+					<span class="glyphicon glyphicon-book" aria-hidden="true"></span>
+					<h4>Bachelor of Science:</h4>
+					<h4>Computer Science & Engineering</h4>
+					<h5>University of Nevada, Reno [ 2010 - 2014 ]</h5>
+					<p>I went to school here.</p>
 				</div>
+				<div class="experience-left-snd">
+					<span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
+				</div>
+				<div class="experience-right-snd">
+					<h4>Software Engineer Intern</h4>
+					<h5>Bally Technologies [ 2013 - 2015 ]</h5>
+					<p>I interned here.</p>
+				</div>
+				<div class="experience-left-trd">
+					<span class="glyphicon glyphicon-briefcase" aria-hidden="true"></span>
+					<h4>Firmware Engineer I</h4>
+					<h5>Scientific Games [ 2015 -  ]</h5>
+					<p>I work here now.</p>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
 		</div>
 	</div>
 	<!--experience-end-->
 
-    <!--my-skill-->
-    <div class="my-skills text-center" id="skill">
-       <div class="container">
-          <h3 class="title">My Skills</h3>
-          <div class="col-md-2 stars-header text-center">
-              <p>C++</p>
-              <div class="stars">
-                  <p>★★★★★</p>
-              </div>
-          </div>
-          <div class="col-md-2 stars-header text-center">
-              <p>Swift</p>
-              <div class="stars">
-                  <p>★★★★★</p>
-              </div>
-          </div>
-          <div class="col-md-2 stars-header text-center">
-              <p>Git</p>
-              <div class="stars">
-                  <p>★★★★★</p>
-              </div>
-          </div>
-          <div class="col-md-2 stars-header text-center">
-              <p>C#</p>
-              <div class="stars">
-                  <p>★★★★☆</p>
-              </div>
-          </div>
-          <div class="col-md-2 stars-header text-center">
-              <p>Bash</p>
-              <div class="stars">
-                  <p>★★★☆☆</p>
-              </div>
-          </div>
-          <div class="col-md-2 stars-header text-center">
-              <p>SQL</p>
-              <div class="stars">
-                  <p>★★★☆☆</p>
-              </div>
-          </div>
-      </div>
-  </div>
-</div>
-<!--//my-skill-->
-		<!--portfolio-->
-		<script src="js/jquery.chocolat.js"></script>
-			<link rel="stylesheet" href="css/chocolat.css" type="text/css" media="screen" charset="utf-8">
-			<!--light-box-files -->
-			<script type="text/javascript" charset="utf-8">
-			</script>
-
-	<div class="gallery">
+	<!--my-skill-->
+	<div class="my-skills text-center" id="skill">
 		<div class="container">
-			<h3 class="title port">My Passion Projects</h3>
-		   <div class="gallery-bottom">
-					<div class="col-md-4 bottom-gallery">
-						<a href="pages/honeychain.html" target="_blank" rel="title" class="b-link-stripe b-animate-go  thickbox">
-						<img class="img-responsive" src="images/honeychain.jpg" />
-						<div class="b-wrapper">
-							<h2 class="b-animate   b-delay03 ">Honeychain</h2>
-						</div>
-	                    </a>
-					</div>
-										<div class="col-md-4 bottom-gallery">
-						<a href="pages/tomteller.html" target="_blank" rel="title" class="b-link-stripe b-animate-go  thickbox">
-						<img class="img-responsive" src="images/tomteller.jpg" />
-						<div class="b-wrapper">
-							<h2 class="b-animate   b-delay03 ">Tom Teller</h2>
-						</div>
-	                    </a>
-					</div>
-										<div class="col-md-4 bottom-gallery">
-						<a href="pages/slimcity.html" target="_blank" rel="title" class="b-link-stripe b-animate-go  thickbox">
-						<img class="img-responsive" src="images/slimcity.jpg" />
-						<div class="b-wrapper">
-							<h2 class="b-animate   b-delay03 ">Slim City</h2>
-						</div>
-	                    </a>
-					</div>
-
-					<div class="clearfix"> </div>
+			<h3 class="title">My Skills</h3>
+			<div class="col-md-2 stars-header text-center">
+				<p>C++</p>
+				<div class="stars">
+					<p>★★★★★</p>
+				</div>
 			</div>
-			
+			<div class="col-md-2 stars-header text-center">
+				<p>Swift</p>
+				<div class="stars">
+					<p>★★★★★</p>
+				</div>
+			</div>
+			<div class="col-md-2 stars-header text-center">
+				<p>Git</p>
+				<div class="stars">
+					<p>★★★★★</p>
+				</div>
+			</div>
+			<div class="col-md-2 stars-header text-center">
+				<p>C#</p>
+				<div class="stars">
+					<p>★★★★☆</p>
+				</div>
+			</div>
+			<div class="col-md-2 stars-header text-center">
+				<p>Bash</p>
+				<div class="stars">
+					<p>★★★☆☆</p>
+				</div>
+			</div>
+			<div class="col-md-2 stars-header text-center">
+				<p>SQL</p>
+				<div class="stars">
+					<p>★★★☆☆</p>
+				</div>
+			</div>
 		</div>
 	</div>
-		<script src="js/jquery.chocolat.js"></script>
-		<link rel="stylesheet" href="css/chocolat.css" type="text/css" media="screen" charset="utf-8">
-		<!--light-box-files -->
-		<!-- Javascript calls -->
-		<script type="text/javascript" charset="utf-8">
-		</script>
+</div>
+<!--//my-skill-->
+<!--portfolio-->
+<script src="js/jquery.chocolat.js"></script>
+<link rel="stylesheet" href="css/chocolat.css" type="text/css" media="screen" charset="utf-8">
+<!--light-box-files -->
+<script type="text/javascript" charset="utf-8">
+</script>
+
+<div class="gallery">
+	<div class="container">
+		<h3 class="title port">My Passion Projects</h3>
+		<div class="gallery-bottom">
+			<div class="col-md-4 bottom-gallery">
+				<a href="pages/honeychain.html" target="_blank" rel="title" class="b-link-stripe b-animate-go  thickbox">
+					<img class="img-responsive" src="images/honeychain.jpg" />
+					<div class="b-wrapper">
+						<h2 class="b-animate   b-delay03 ">Honeychain</h2>
+					</div>
+				</a>
+			</div>
+			<div class="col-md-4 bottom-gallery">
+				<a href="pages/tomteller.html" target="_blank" rel="title" class="b-link-stripe b-animate-go  thickbox">
+					<img class="img-responsive" src="images/tomteller.jpg" />
+					<div class="b-wrapper">
+						<h2 class="b-animate   b-delay03 ">Tom Teller</h2>
+					</div>
+				</a>
+			</div>
+			<div class="col-md-4 bottom-gallery">
+				<a href="pages/slimcity.html" target="_blank" rel="title" class="b-link-stripe b-animate-go  thickbox">
+					<img class="img-responsive" src="images/slimcity.jpg" />
+					<div class="b-wrapper">
+						<h2 class="b-animate   b-delay03 ">Slim City</h2>
+					</div>
+				</a>
+			</div>
+
+			<div class="clearfix"> </div>
+		</div>
+
+	</div>
+</div>
+<script src="js/jquery.chocolat.js"></script>
+<link rel="stylesheet" href="css/chocolat.css" type="text/css" media="screen" charset="utf-8">
+<!--light-box-files -->
+<!-- Javascript calls -->
+<script type="text/javascript" charset="utf-8">
+</script>
 
 <!--//portfolio-->
 
- <!--start-contact-->
-	 <div class="contact_desc" id="contact">
-		        <div class="container">
-		        	<h3 class="title">Contact Me</h3>
-			         <div class="contact-form">
-				  	   <form class="left_form">
-					    	<div>
-						    	<span><label>NAME</label></span>
-						    	<span><input name="userName" type="text" class="textbox"></span>
-						    </div>
-						    <div>
-						    	<span><label>E-MAIL</label></span>
-						    	<span><input name="userEmail" type="text" class="textbox"></span>
-						    </div>
-						    <div>
-						     	<span><label>Fax</label></span>
-						    	<span><input name="userPhone" type="text" class="textbox"></span>
-						    </div>
-					    </form>
-					    <form class="right_form">
-					        <div>					    	
-						    	<span><label>SUBJECT</label></span>
-						    	<span><textarea name="userMsg"> </textarea></span>
-						    </div>
-						   <div>
-						   		<input type="submit" value="Submit " />
-						  </div>
-					    </form>
-					    <div class="clearfix"></div>
-				  </div>
-				  </div>
-			</div>
-	<!--//contact-->
-
-
-	<!--footer-->
-	<div class="copy">
-		<p>&copy; 2018 Steven Albers. All Rights Reserved</p>
+<!--start-contact-->
+<div class="contact_desc" id="contact">
+	<div class="container">
+		<h3 class="title">Contact Me</h3>
+		<div class="contact-form">
+			<form class="left_form">
+				<div>
+					<span><label>NAME</label></span>
+					<span><input name="userName" type="text" class="textbox"></span>
+				</div>
+				<div>
+					<span><label>E-MAIL</label></span>
+					<span><input name="userEmail" type="text" class="textbox"></span>
+				</div>
+				<div>
+					<span><label>Fax</label></span>
+					<span><input name="userPhone" type="text" class="textbox"></span>
+				</div>
+			</form>
+			<form class="right_form">
+				<div>					    	
+					<span><label>SUBJECT</label></span>
+					<span><textarea name="userMsg"> </textarea></span>
+				</div>
+				<div>
+					<input type="submit" value="Submit " />
+				</div>
+			</form>
+			<div class="clearfix"></div>
+		</div>
 	</div>
-							<!--start-smoth-scrolling-->
-						<script type="text/javascript">
-									$(document).ready(function() {
+</div>
+<!--//contact-->
+
+
+<!--footer-->
+<div class="copy">
+	<p>&copy; 2018 Steven Albers. All Rights Reserved</p>
+</div>
+<!--start-smoth-scrolling-->
+<script type="text/javascript">
+	$(document).ready(function() 
+	{
 										/*
 										var defaults = {
 								  			containerID: 'toTop', // fading element id
@@ -297,13 +298,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 											scrollSpeed: 1200,
 											easingType: 'linear' 
 								 		};
-										*/
-										
-										$().UItoTop({ easingType: 'easeOutQuart' });
-										
-									});
-								</script>
-		<a href="#home" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+								 		*/
 
-</body>
-</html>
+								 		$().UItoTop({ easingType: 'easeOutQuart' });
+
+								 	});
+								 </script>
+								 <a href="#home" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+
+								</body>
+								</html>
