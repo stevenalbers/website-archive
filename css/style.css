@@ -1,0 +1,154 @@
+body {
+  font-family: "Questrial", sans-serif;
+  background-color: #bbbec6;
+}
+.header {
+  font-size: 40px;
+}
+.header a {
+  font-size: 20px;
+}
+
+.navbar {
+  background-color: #455052;
+  box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-brand {
+  font-size: 35px;
+}
+
+.about {
+  background-color: #f1f1f1;
+  color: #263433;
+  padding-top: 100px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-bottom: 85px;
+
+  text-align: justify;
+  text-justify: inter-word;
+
+  box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.about h1 {
+  color: #263433;
+  font-size: 30px;
+  padding-bottom: 1px;
+}
+
+.about h2 {
+  color: #263433;
+  font-size: 23px;
+  padding-bottom: 1px;
+}
+
+.about p {
+  color: #263433;
+  font-size: 17px;
+  padding-bottom: 1px;
+}
+
+.resume {
+  background-color: #f1f1f1;
+  color: #263433;
+  padding-top: 75px;
+  margin-top: -75px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-bottom: 85px;
+
+  box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.resume h2 {
+  text-align: center;
+}
+.resume p {
+  color: #263433;
+  font-size: 15px;
+  text-align: center;
+}
+
+.stars h1 {
+  font-size: 50px;
+}
+
+.stars p {
+  font-size: 32px;
+  color: #F1C40F;
+}
+
+.portfolio {
+  background-color: #f1f1f1;
+  color: #263433;
+  padding-top: 75px;
+  margin-top: -75px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-bottom: 85px;
+
+  box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.contact {
+  background-color: #f1f1f1;
+  color: #263433;
+  padding-top: 75px;
+  margin-top: -75px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-bottom: 85px;
+
+  box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.contact h2 {
+  color: #263433;
+  font-size: 20px;
+  padding-bottom: 1px;
+}
+
+.contact p {
+  color: #263433;
+  font-size: 20px;
+  padding-bottom: 1px;
+}
+
+.footer {
+  margin: auto;
+  width: 50%;
+  margin-top: -50px;
+}
+
+.footer p {
+  color: #f1f1f1;
+  font-size: 17px;
+  padding-bottom: 1px;
+  text-align: center;
+}
+
+.glyphicon {
+    color: #455052;
+
+  font-size: 100px;
+}
+
+.contact-button {
+  color: #455052;
+
+  font-size: 150px;
+}
+
+.btn {
+    border:0px solid transparent;
+}
+
+.btn:focus,.btn:active {
+   outline: none !important;
+   box-shadow: none;
+}
+
+.btn-outline-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active {
+  background-color: #0077B5;
+}
