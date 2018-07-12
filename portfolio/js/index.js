@@ -10,6 +10,12 @@ $(document).ready(function() {
         "class",
         "navbar fixed-top navbar-expand-md navbar-dark honeychain-navbar"
       );
+    $("body,html").animate(
+      {
+        scrollTop: 0 // Scroll to top of body
+      },
+      500
+    );
   });
 
   $("#tomteller-nav").click(function() {
@@ -23,6 +29,12 @@ $(document).ready(function() {
         "class",
         "navbar fixed-top navbar-expand-md navbar-dark tomteller-navbar"
       );
+    $("body,html").animate(
+      {
+        scrollTop: 0 // Scroll to top of body
+      },
+      500
+    );
   });
 
   $("#slimcity-nav").click(function() {
@@ -36,5 +48,36 @@ $(document).ready(function() {
         "class",
         "navbar fixed-top navbar-expand-md navbar-dark slimcity-navbar"
       );
+    $("body,html").animate(
+      {
+        scrollTop: 0 // Scroll to top of body
+      },
+      500
+    );
   });
 });
+
+$("#nav .navbar-nav a").on("click", function() {
+  $("#nav .navbar-nav")
+    .find("li.active")
+    .removeClass("active");
+  $(this)
+    .parent("li")
+    .addClass("active");
+});
+
+window.addEventListener(
+  "load",
+  function() {
+    var currenthash = window.location.hash;
+    var navbar = currenthash.substring(1) + "-navbar";
+    $(currenthash).css("display", "block");
+    document
+      .getElementById("nav")
+      .setAttribute(
+        "class",
+        "navbar fixed-top navbar-expand-md navbar-dark " + navbar
+      );
+  },
+  false
+);

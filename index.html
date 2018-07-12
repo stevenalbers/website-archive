@@ -6,9 +6,10 @@
   <title>Website</title>
   
   
-  <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
-<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css'>
+  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
 <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.css'>
+<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.css'>
 
       <link rel="stylesheet" href="css/style.css">
 
@@ -26,13 +27,13 @@
 </head>
 
 <body>
-  <nav class="navbar fixed-top navbar-expand-md navbar-dark">
+  <nav class="navbar fixed-top navbar-expand-md navbar-dark" id="nav">
     <div class="collapse navbar-collapse w-100 order-1 order-md-0 dual-collapse2">
       <div class="navbar-nav mr-auto header">
-        <a class="nav-item nav-link active" href="#about">About<span class="sr-only">(current)</span></a>
-        <a class="nav-item nav-link" href="#resume">Resume </a>
-        <a class="nav-item nav-link" href="#portfolio">Portfolio</a>
-        <a class="nav-item nav-link" href="#contact">Contact</a>
+        <li><a class="nav-item nav-link active" href="#about">About</a></li>
+        <li><a class="nav-item nav-link" href="#resume">Resume </a></li>
+        <li><a class="nav-item nav-link" href="#portfolio">Portfolio</a></li>
+        <li><a class="nav-item nav-link" href="#contact">Contact</a></li>
       </div>
     </div>
     <div class="mx-auto order-0">
@@ -54,7 +55,6 @@
         </li>
       </ul>
     </div>
-
   </nav>
   <div class="container">
     <div class="about" id="about">
@@ -124,29 +124,29 @@
       <h1>My Skills</h1>
       <br>
       <div class="row">
-        <div class="col-md-4 stars text-center">
+        <div class="col stars text-center">
           <h1>C++</h1>
           <p>★★★★★</p>
         </div>
-        <div class="col-md-4 stars text-center">
+        <div class="col stars text-center">
           <h1>Swift</h1>
           <p>★★★★★</p>
         </div>
-        <div class="col-md-4 stars text-center">
+        <div class="col stars text-center">
           <h1>Git</h1>
           <p>★★★★★</p>
         </div>
       </div>
       <div class="row">
-        <div class="col-md-4 stars text-center">
+        <div class="col stars text-center">
           <h1>C#</h1>
           <p>★★★★☆</p>
         </div>
-        <div class="col-md-4 stars text-center">
+        <div class="col stars text-center">
           <h1>Bash</h1>
           <p>★★★☆☆</p>
         </div>
-        <div class="col-md-4 stars text-center">
+        <div class="col stars text-center">
           <h1>SQL</h1>
           <p>★★★☆☆</p>
         </div>
@@ -160,26 +160,26 @@
       <div class="gallery">
         <div class="container">
           <div class="col-md-6 bottom-gallery">
-            <a href="portfolio/portfolio.html" target="_blank" rel="title" class="b-link-stripe b-animate-go  thickbox">
+            <a href="portfolio/portfolio.html#honeychain" target="_blank" rel="title" class="b-link-stripe b-animate-go portfolio-fade thickbox">
 					<img class="img-responsive" src="http://45.79.100.24/images/honeychain.jpg" />
-					<div class="b-wrapper">
-						<h2 class="b-animate   b-delay03 ">Honeychain</h2>
+					<div class="portfolio-text">
+						<h2>Honeychain</h2>
 					</div>
 				</a>
           </div>
           <div class="col-md-6 bottom-gallery">
-            <a href="http://45.79.100.24/pages/tomteller.html" target="_blank" rel="title" class="b-link-stripe b-animate-go  thickbox">
+            <a href="portfolio/portfolio.html#tomteller" target="_blank" rel="title" class="b-link-stripe b-animate-go portfolio-fade thickbox">
 					<img class="img-responsive" src="http://45.79.100.24/images/tomteller.jpg" />
-					<div class="b-wrapper">
-						<h2 class="b-animate   b-delay03 ">Tom Teller</h2>
+					<div class="portfolio-text">
+						<h2>Tom Teller</h2>
 					</div>
 				</a>
           </div>
-          <div class="col-md-6 bottom-gallery">
-            <a href="http://45.79.100.24/pages/slimcity.html" target="_blank" rel="title" class="b-link-stripe b-animate-go  thickbox">
+          <div class="col-md-6 bottom-gallery"><br>
+            <a href="portfolio/portfolio.html#slimcity" target="_blank" rel="title" class="b-link-stripe b-animate-go portfolio-fade thickbox">
 					<img class="img-responsive" src="http://45.79.100.24/images/slimcity.jpg" />
-					<div class="b-wrapper">
-						<h2 class="b-animate   b-delay03 ">Slim City</h2>
+					<div class="portfolio-text">
+						<h2>Slim City</h2>
 					</div>
 				</a>
             <div class="clearfix"> </div>
@@ -187,7 +187,7 @@
 
         </div>
       </div>
-
+      <br><br>
     </div>
     <div class="contact" id="contact">
       <h1>Get in Touch</h1>
@@ -195,15 +195,13 @@
       </p>
       <div class="row">
         <div class="col text-center">
-          <button type="button" class="contact-button icon-envelope-open btn btn-outline-secondary"></button>
+          <a href="mailto:someone@example.com?Subject=Hello%20again" class="contact-button icon-envelope-open btn btn-outline-secondary" role="button"></a>
+        </div>
+        <div class="col text-center">
+          <a href="https://github.com/stevenalbers" target="blank" class="contact-button icon-social-github btn btn-outline-dark" role="button"></a>
         </div>
         <div class="col  text-center">
-
-          <button type="button" class="contact-button icon-social-linkedin btn btn-outline-primary bg-navy"></button>
-        </div>
-        <div class="col  text-center">
-
-          <button type="button" class="contact-button icon-social-github btn btn-outline-dark"></button>
+          <a href="https://www.linkedin.com/in/alberss/" target="blank" class="contact-button icon-social-linkedin btn btn-outline-primary bg-navy" role="button"></a>
         </div>
       </div>
       <br>
@@ -220,11 +218,16 @@
 </div>
 
 </html>
-  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
 <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js'></script>
 <script src='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js'></script>
 
   
+
+    <script  src="js/index.js"></script>
+
+
+
 
 </body>
 

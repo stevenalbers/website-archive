@@ -91,3 +91,16 @@ body {
 .btn-outline-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active {
   background-color: #0077B5;
 }
+
+.footer {
+  margin: auto;
+  width: 50%;
+  margin-top: -50px;
+}
+
+.footer p {
+  color: #f1f1f1;
+  font-size: 17px;
+  padding-bottom: 1px;
+  text-align: center;
+}
