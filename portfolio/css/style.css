@@ -29,6 +29,11 @@ body {
     transition: all .2s ease-in;
 }
 
+.twain-navbar {
+    background-color: #866D5A;    
+    transition: all .2s ease-in;
+}
+
 .navbar-brand {
   font-size: 35px;
 }

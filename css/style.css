@@ -117,15 +117,13 @@ filter: brightness(0.8);
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
+  color: #ffffff;
+  text-shadow: 1px 1px #000000;
+
 }
 
 .bottom-gallery:hover .portfolio-text {
   opacity: 1;
-}
-
-.portfolio-text {
-  color: #f1f1f1;
-  text-shadow: 1px 1px #000000;
 }
 
 .portfolio-text h2 {
