@@ -49,6 +49,10 @@ body {
   padding-bottom: 1px;
 }
 
+.me-img {
+  padding-bottom: 35px;
+}
+
 .resume {
   background-color: #f1f1f1;
   color: #263433;
