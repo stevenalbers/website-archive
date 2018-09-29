@@ -9,6 +9,11 @@ body {
   font-size: 20px;
 }
 
+.center-align a {
+    vertical-align: middle;
+    display: inline-block;
+}
+
 .navbar {
   background-color: #455052;
   box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2);
