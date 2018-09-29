@@ -9,7 +9,7 @@ body {
   font-size: 20px;
 }
 
-.center-align a {
+.vertical-align a {
     vertical-align: middle;
     display: inline-block;
 }
