@@ -8,7 +8,7 @@ $('a.nav-item').on('click', function(event) {
 $(document).ready(function() {
   $("#honeychain-nav").click(function() {
     $("#honeychain").css("display", "block");
-    $("#tomteller").css("display", "none");
+    $("#justads").css("display", "none");
     $("#slimcity").css("display", "none");
     $("#twain").css("display", "none");
 
@@ -25,9 +25,9 @@ $(document).ready(function() {
     );
   });
 
-  $("#tomteller-nav").click(function() {
+  $("#justads-nav").click(function() {
     $("#honeychain").css("display", "none");
-    $("#tomteller").css("display", "block");
+    $("#justads").css("display", "block");
     $("#slimcity").css("display", "none");
     $("#twain").css("display", "none");
 
@@ -35,7 +35,7 @@ $(document).ready(function() {
       .getElementById("nav")
       .setAttribute(
         "class",
-        "navbar fixed-top navbar-expand-md navbar-dark tomteller-navbar"
+        "navbar fixed-top navbar-expand-md navbar-dark justads-navbar"
       );
     $("body,html").animate({
         scrollTop: 0 // Scroll to top of body
@@ -46,7 +46,7 @@ $(document).ready(function() {
 
   $("#slimcity-nav").click(function() {
     $("#honeychain").css("display", "none");
-    $("#tomteller").css("display", "none");
+    $("#justads").css("display", "none");
     $("#slimcity").css("display", "block");
     $("#twain").css("display", "none");
 
@@ -65,7 +65,7 @@ $(document).ready(function() {
 
   $("#twain-nav").click(function() {
     $("#honeychain").css("display", "none");
-    $("#tomteller").css("display", "none");
+    $("#justads").css("display", "none");
     $("#slimcity").css("display", "none");
     $("#twain").css("display", "block");
 
